@@ -1,0 +1,60 @@
+.form-control {
+    
+    border: 1px solid #6e1e87ed;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px ;
+    text-align: center;
+    margin: 2% auto;
+}
+
+button.btn.btn-primary{
+    color: #fff;
+    background-color: #6e1e87ed;
+    border-color: #6e1e87ed;
+}
+
+.float-right{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #454040;
+}
+.message {
+    border-radius: 50px;
+    margin: 0 15px 20px;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 20px;
+}
+
+.message.to {
+    background-color: #6e1e87ed;
+    color: #ffffff;
+    margin-left: 100px;
+    text-align: right;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    padding-right: 40px;
+}
+
+.message.from{
+    background-color: #9d88ac;
+    color: #000000;
+    margin-right: 100px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.message.to + .message.to,
+.message.from + .message.from{
+    margin-top: -10px;
+}
